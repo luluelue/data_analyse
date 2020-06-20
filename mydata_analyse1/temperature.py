@@ -25,4 +25,9 @@ _xtick_labels += ["11点{}分".format(i) for i in range(60)]
 # 第一个参数是x轴的刻度，这里的第二个参数是标签,第三个标签是旋转的度数
 plt.xticks(_x[::10], _xtick_labels[::10], rotation=90)
 
+plt.xlabel("时间")
+plt.ylabel("温度")
+plt.title("10点到12点的温度变化")
+
+
 plt.show()
